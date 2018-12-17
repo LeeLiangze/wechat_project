@@ -40,49 +40,60 @@ class searchAction extends Action {
     // 查询系统参数
     $sql = "select * from lkt_config where id = 1";
     $r_1 = $db->select($sql);
-    $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
-    $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
-    if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
-      $img = $uploadImg_domain . $uploadImg; // 图片路径
-    }else{ // 不存在
-      $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+    if($r_1){
+        $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
+        $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
+        if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
+            $img = $uploadImg_domain . $uploadImg; // 图片路径
+        }else{ // 不存在
+            $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+        }
+    }else{
+        $img = '';
     }
+
     //查询商品并分类显示返回JSON至小程序
-    $sql_c = 'select cid,pname,img,bg from lkt_product_class where sid=0 order by sort desc';
+    $sql_c = "select cid,pname,img,bg from lkt_product_class where sid=0 and recycle != 1 order by sort desc";
     $r_c = $db->select($sql_c);
+   
     $twoList = [];
     $abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $st = 0;
     $icons=[];
-    
-    foreach ($r_c as $key => $value) {
-      $sql_e = 'select cid,pname,img from lkt_product_class where sid=\''.$value->cid.'\' order by sort ';
-      $r_e = $db->select($sql_e);
-      $son=[];
-      if($r_e){
-        foreach ($r_e as $ke => $ve) {
-          $imgurl = $img.$ve->img;
-          $son[$ke] = array('child_id' => $ve->cid,'name' => $ve->pname,'picture' => $imgurl);
-        }
-        $type = true;
-      }else{
-        $type =false;
-      }
-      if($value->bg){
-        $cimgurl = $img.$value->bg;
-      }else{
-        $cimgurl = '';
-      }
-      
-      $icons[$key] = array('cate_id' => $value->cid,'cate_name' => $value->pname,'ishaveChild'=> $type,'children' => $son,'cimgurl' => $cimgurl);
+    if($r_c){
+        foreach ($r_c as $key => $value) {
+            $sql_e = 'select cid,pname,img from lkt_product_class where sid=\''.$value->cid.'\' and recycle != 1 order by sort ';
+            $r_e = $db->select($sql_e);
+            $son=[];
+            if($r_e){
+                foreach ($r_e as $ke => $ve) {
+                    $imgurl = $img.$ve->img;
+                    $son[$ke] = array('child_id' => $ve->cid,'name' => $ve->pname,'picture' => $imgurl);
+                }
+                $type = true;
+            }else{
+                $type =false;
+            }
+            if($value->bg){
+                $cimgurl = $img.$value->bg;
+            }else{
+                $cimgurl = '';
+            }
 
+            $icons[$key] = array('cate_id' => $value->cid,'cate_name' => $value->pname,'ishaveChild'=> $type,'children' => $son,'cimgurl' => $cimgurl);
+
+        }
     }
+
 
     $sql = 'select keyword from lkt_hotkeywords';
     $res = $db -> selectarray($sql);
-    foreach ($res as $k => $v) {
-      $res[$k] = $v['keyword'];
+    if($res){
+        foreach ($res as $k => $v) {
+            $res[$k] = $v['keyword'];
+        }
     }
+
     echo json_encode(array('status'=>1,'List'=>$icons,'hot'=>$res));
     exit;
   }
@@ -96,13 +107,18 @@ class searchAction extends Action {
     // 查询系统参数
     $sql = "select * from lkt_config where id = 1";
     $r_1 = $db->select($sql);
-    $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
-    $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
-    if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
-        $img = $uploadImg_domain . $uploadImg; // 图片路径
-    }else{ // 不存在
-        $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+    if($r_1){
+        $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
+        $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
+        if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
+            $img = $uploadImg_domain . $uploadImg; // 图片路径
+        }else{ // 不存在
+            $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+        }
+    }else{
+        $img = '';
     }
+
     if($select == 0){
       $select = 'a.add_date'; 
     }elseif ($select == 1) {
@@ -117,29 +133,32 @@ class searchAction extends Action {
     }
 
     //查出所有产品分类
-    $sql = 'select pname from lkt_product_class';
+    $sql = 'select pname from lkt_product_class where recycle != 1';
     $res = $db -> select($sql);
-    foreach ($res as $key => $value) {
-      $res[] = $value -> pname;
+    if($res){
+        foreach ($res as $key => $value) {
+            $res[] = $value -> pname;
+        }
     }
+
     //判断如果关键词是产品分类名称，如果是则查出该类里所有商品
     if(in_array($keyword, $res)){
       $type = 0;
       $keyword = addslashes($keyword);
-      $sqla = "select cid from lkt_product_class where pname='$keyword'";
+      $sqla = "select cid from lkt_product_class where pname='$keyword' and recycle != 1";
       $a = $db -> select($sqla);
       if(!empty($a)){
         $cid = $a['0']->cid; // 分类id
       }
       $start = 10*($num-1);
       $end = 10;
-      $sqlb = "select a.id,product_title,a.volume,a.s_type,c.id as cid,c.yprice,c.img,c.name,c.color,min(c.price) as price from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_class like '%$cid%' group by c.pid order by $select $sort  LIMIT $start,$end";
+      $sqlb = "select a.id,product_title,a.volume,a.s_type,c.id as cid,c.yprice,c.img,c.name,c.color,min(c.price) as price from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_class like '%$cid%' and a.status = 0 group by c.pid order by $select $sort  LIMIT $start,$end";
       $data = $db -> select($sqlb);
       
     }else{   //如果不是商品分类名称，则直接搜产品
       $type = 1;
       $keyword = addslashes($keyword);
-      $sqlb = "select a.id,a.product_title,a.product_class,a.volume,a.s_type,c.id as cid,c.yprice,c.img,c.name,c.color,min(c.price) as price from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_title like '%$keyword%' group by c.pid order by $select $sort";
+      $sqlb = "select a.id,a.product_title,a.product_class,a.volume,a.s_type,c.id as cid,c.yprice,c.img,c.name,c.color,min(c.price) as price from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_title like '%$keyword%' and a.status = 0 group by c.pid order by $select $sort";
 
       $data = $db -> select($sqlb);
     }
@@ -187,13 +206,18 @@ class searchAction extends Action {
     // 查询系统参数
     $sql = "select * from lkt_config where id = 1";
     $r_1 = $db->select($sql);
-    $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
-    $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
-    if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
-      $img = $uploadImg_domain . $uploadImg; // 图片路径
-    }else{ // 不存在
-      $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+    if($r_1){
+        $uploadImg_domain = $r_1[0]->uploadImg_domain; // 图片上传域名
+        $uploadImg = $r_1[0]->uploadImg; // 图片上传位置
+        if(strpos($uploadImg,'../') === false){ // 判断字符串是否存在 ../
+            $img = $uploadImg_domain . $uploadImg; // 图片路径
+        }else{ // 不存在
+            $img = $uploadImg_domain . substr($uploadImg,2); // 图片路径
+        }
+    }else{
+        $img = '';
     }
+
     if(!$paegr){
       $paegr = 1;
     }
@@ -206,7 +230,7 @@ class searchAction extends Action {
       $bg = $img.$r_c[0]->bg;
     }
 
-    $sql = "select a.id,a.product_title,volume,min(c.price) as price,c.yprice,c.img,c.name,c.color,c.size,a.s_type,c.id AS sizeid from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_class like '%$id%' and c.num >0 group by c.pid  order by $select $sort LIMIT $start,$end ";
+    $sql = "select a.id,a.product_title,volume,min(c.price) as price,c.yprice,c.img,c.name,c.color,c.size,a.s_type,c.id AS sizeid from lkt_product_list AS a RIGHT JOIN lkt_configure AS c ON a.id = c.pid where a.product_class like '%$id%' and c.num >0 and a.status = 0 group by c.pid  order by $select $sort LIMIT $start,$end ";
 
     $r = $db->select($sql);
 

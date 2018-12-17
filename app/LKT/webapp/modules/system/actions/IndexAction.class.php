@@ -1,16 +1,4 @@
 <?php
-
-/**
-
- * [Laike System] Copyright (c) 2018 laiketui.com
-
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
-
- */
-/**
- * [Laike System] Copyright (c) 2018 laiketui.com
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
- */
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
 
@@ -32,7 +20,6 @@ class IndexAction extends Action {
         $uploadImg_domain = $r[0]->uploadImg_domain; // 图片上传域名
         $uploadImg = $r[0]->uploadImg; // 图片上传位置
         $upload_file = $r[0]->upload_file; // 软件上传位置
-        $mch_id = $r[0]->mch_id; // 商户id
         $ip = $r[0]->ip; // ip地址
         
         if($uploadImg == ''){
@@ -47,7 +34,6 @@ class IndexAction extends Action {
         $request->setAttribute('uploadImg_domain', isset($uploadImg_domain) ? $uploadImg_domain : '');
         $request->setAttribute('uploadImg', isset($uploadImg) ? $uploadImg : '');
         $request->setAttribute('upload_file', isset($upload_file) ? $upload_file : '');
-        $request->setAttribute('mch_id', isset($mch_id) ? $mch_id : '');
         $request->setAttribute('ip', isset($ip) ? $ip : '');
         return View :: INPUT;
     }
@@ -66,7 +52,6 @@ class IndexAction extends Action {
         $uploadImg_domain = addslashes(trim($request->getParameter('uploadImg_domain'))); // 图片上传域名
         $uploadImg = addslashes(trim($request->getParameter('uploadImg'))); // 图片上传位置
         $upload_file = addslashes(trim($request->getParameter('upload_file'))); // 软件上传位置
-        $mch_id = addslashes(trim($request->getParameter('mch_id'))); // 商户id
         $ip = addslashes(trim($request->getParameter('ip'))); // ip地址
 
         if($company == ''){
@@ -120,8 +105,9 @@ class IndexAction extends Action {
         }else{
             $image = $oldpic;
         }
+
         // 更新
-        $sql = "update lkt_config set logo = '$image',company = '$company', appid = '$appid',appsecret = '$appsecret', domain = '$domain',uploadImg_domain = '$uploadImg_domain', uploadImg = '$uploadImg',upload_file = '$upload_file',ip = '$ip',modify_date = CURRENT_TIMESTAMP where id = '1'";
+        $sql = "update lkt_config set logo = '$image',company = '$company', appid = '$appid',appsecret = '$appsecret', domain = '$domain',uploadImg_domain = '$uploadImg_domain', uploadImg = '$uploadImg',upload_file = '$upload_file', ip = '$ip',modify_date = CURRENT_TIMESTAMP where id = '1'";
         $r = $db->update($sql);
 
         if($r == -1) {

@@ -28,73 +28,102 @@ class testAction extends Action {
                 $orderres = $db -> select($ordersql); 
                 
                 $fromarr = array();
-              foreach ($orderres as $key => $value) {
-                 $fromidres = $this->get_fromid($value->uid);
-                 $fromarr[0]=(object)$fromidres;
+                if($orderres){
+                    foreach ($orderres as $key => $value) {
+                        $fromidres = $this->get_fromid($value->uid);
+                        $fromarr[0]=(object)$fromidres;
 
-                if($config == 1){
-                   $refund = $ordernum = date('Ymd').mt_rand(10000,99999).substr(time(),5);
-                   if($value -> pay == 'wallet_Pay'){
-                   	 $oldmoney = $db -> select("select money from lkt_user where user_id='$value->user_id'");
-                   	 $oldmoney = $oldmoney[0] -> money;
-                     $sql = "update lkt_user set money=money+$value->z_price where user_id='$value->user_id'";
-                     $res = $db -> update($sql);
-                     $date = date('Y-m-d H:i:s');
-                     $recordsql = "insert into lkt_record(user_id,money,oldmoney,add_date,event,type) values('$value->user_id',$value->z_price,$oldmoney,'$date','".$value->user_id."拼团失败退款',5)";
-                     $db -> insert($recordsql);
-                     
+                        if($config == 1){
+                            $refund = $ordernum = date('Ymd').mt_rand(10000,99999).substr(time(),5);
+                            if($value -> pay == 'wallet_Pay'){
+                                $oldmoney = $db -> select("select money from lkt_user where user_id='$value->user_id'");
+                                $oldmoney = $oldmoney[0] -> money;
+                                $sql = "update lkt_user set money=money+$value->z_price where user_id='$value->user_id'";
+                                $res = $db -> update($sql);
+                                $date = date('Y-m-d H:i:s');
+                                $recordsql = "insert into lkt_record(user_id,money,oldmoney,add_date,event,type) values('$value->user_id',$value->z_price,$oldmoney,'$date','".$value->user_id."拼团失败退款',5)";
+                                $db -> insert($recordsql);
 
-                     $fromres1 = $this->get_fromid($value->uid);
-                     $fromid = $fromres1['fromid'];
-                      $sql = "select * from lkt_notice where id = '1'";
-                      $r = $db->select($sql);
-                      $template_id = $r[0]->refund_success;
-                     $this -> Send_fail($value -> uid,$fromid,$value -> sNo,$value -> p_name,$value -> z_price,
-                        $template_id,'pages/user/user');
-                     if($fromid == $fromidres['fromid']){
-                     	$fromidres = $this->get_fromid($value->uid,$fromid);
-                 		$fromarr[0]=(object)$fromidres;
-                     }
-                     
-                   }else if($value -> pay == 'wxPay'){
-                      $price = $value -> z_price*100;
-                      $res = $this -> wxrefundapi($value -> trade_no,$refund,$price);
-                   }
-                   
-                   if($res > 0 || ($res['return_code'] == 'SUCCESS' && $res['result_code'] == 'SUCCESS')){
-                   	  $modifysql = "update lkt_order set ptstatus=3,status=11,refundsNo='$refund' where sNo='$value->sNo'";
-                      $modres = $db -> update($modifysql);
-                       
-                   }
-             }
-            }
 
-               foreach ($orderres as $ke => $va) {
-               	   if($va -> uid != $fromarr[0]->fromid){
-               	   	    $fromidres = $this->get_fromid($va -> uid);
-                   		$fromarr[0]=(object)$fromidres;
-               	   }
+                                $fromres1 = $this->get_fromid($value->uid);
+                                $fromid = $fromres1['fromid'];
+                                $sql = "select * from lkt_notice where id = '1'";
+                                $r = $db->select($sql);
+                                if($r){
+                                    $template_id = $r[0]->refund_success;
+                                }else{
+                                    $template_id = '';
+                                }
+                                $this -> Send_fail($value -> uid,$fromid,$value -> sNo,$value -> p_name,$value -> z_price,
+                                    $template_id,'pages/user/user');
+                                if($fromid == $fromidres['fromid']){
+                                    $fromidres = $this->get_fromid($value->uid,$fromid);
+                                    $fromarr[0]=(object)$fromidres;
+                                }
 
-                   foreach ($fromarr as $key => $val) {
-                       if($val -> openid == $va -> uid){
-                         $orderres[$ke] -> fromid = $val -> fromid;
-                       }
-                   }
-               }
+                            }else if($value -> pay == 'wxPay'){
+                                $price = $value -> z_price*100;
+                                $res = $this -> wxrefundapi($value -> trade_no,$refund,$price);
+                            }
+
+                            if($res > 0 || ($res['return_code'] == 'SUCCESS' && $res['result_code'] == 'SUCCESS')){
+                                $modifysql = "update lkt_order set ptstatus=3,status=11,refundsNo='$refund' where sNo='$value->sNo'";
+                                $modres = $db -> update($modifysql);
+                            }
+                        }
+                    }
+                    foreach ($orderres as $ke => $va) {
+                        if($va -> uid != $fromarr[0]->fromid){
+                            $fromidres = $this->get_fromid($va -> uid);
+                            $fromarr[0]=(object)$fromidres;
+                        }
+
+                        foreach ($fromarr as $key => $val) {
+                            if($val -> openid == $va -> uid){
+                                $orderres[$ke] -> fromid = $val -> fromid;
+                            }
+                        }
+                    }
+                }
+
+
+
                 $sql = "select * from lkt_notice where id = '1'";
                 $r = $db->select($sql);
-                $template_id = $r[0]->group_fail;
+                if($r){
+                    $template_id = $r[0]->group_fail;
+                }else{
+                    $template_id = 0;
+                }
                 $this -> Send_success($orderres,$template_id);
                 $uptsql = "update lkt_group_open set ptstatus=3 where ptcode='$v->ptcode'";
                 $uptres = $db -> update($uptsql);
-              if($config == 2){
-                $db -> update("update lkt_order set ptstatus=3,status=10 where ptcode='$v->ptcode'");
-              }
+                if($config == 2){
+                    $db -> update("update lkt_order set ptstatus=3,status=10 where ptcode='$v->ptcode'");
+                }
             }        
 
         }
         $delsql = "delete from lkt_user_fromid where UNIX_TIMESTAMP(lifetime) < '$now'";
         $delres = $db -> delete($delsql);
+        
+        //十二宫格抽奖处理过期代码
+        $sql2 = "select * from lkt_twelve_draw_config where 1=1 ";
+        $r2 = $db->select($sql2);
+        if($r2){
+            $arr = unserialize($r2[0]->sets);
+        }else{
+            $arr = [];
+        }
+        
+        $endsql = "update lkt_group_buy set is_show=0 where is_show=1 and endtime<='$now'";    //结束已经到期的拼团活动
+        $db -> update($endsql);
+        $time = $arr['invalid'];
+        if($time){
+            $date = date('Y-m-d H:i:s', strtotime("-$time days"));
+            $sql = "update lkt_twelve_draw_order set status='4' where id in(select a.id from(select id from lkt_twelve_draw_order where addtime < '$date' and status = '2')as a)";
+            $res = $db -> update($sql);
+        }
         
     }
 
