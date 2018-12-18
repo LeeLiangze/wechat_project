@@ -3,7 +3,7 @@ if(is_file('../data/install.lock')){
 	echo "安装过了,不能再次安装！";
 	exit;
 }
-date_default_timezone_set('Asia/Chongqing');
+date_default_timezone_set('Asia/Singapore');
 set_time_limit(7200);
 // +---------------------------------------------------------------------------+
 // | An absolute filesystem path to our webapp/config.php script.              |
