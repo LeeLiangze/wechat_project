@@ -2,7 +2,7 @@
 if(!is_file('../data/install.lock')){
 	echo "您还没有安装系统，请安装后重试！";exit;
 }
-date_default_timezone_set('Asia/Chongqing');
+date_default_timezone_set('Asia/Singapore');
 set_time_limit(7200);
 // +---------------------------------------------------------------------------+
 // | An absolute filesystem path to our webapp/config.php script.              |

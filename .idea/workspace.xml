@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a0e2cf5-f2fe-4e30-b050-5b32176e6771" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/LKT/images/admin_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/images/admin_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/images/iIcon/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/images/iIcon/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/js_api_call.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/js_api_call.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/_cache/config_autoload.ini.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/_cache/config_autoload.ini.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/_cache/config_filters.ini.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/_cache/config_filters.ini.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/_compile/AdminLogin/%%45^45E^45E480CD%%index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/_compile/AdminLogin/%%45^45E^45E480CD%%index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/_compile/Login/%%45^45E^45E480CD%%index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/_compile/Login/%%45^45E^45E480CD%%index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/templates/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/templates/index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/amountAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/amountAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/viewAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/actions/viewAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/amountInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/amountInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Article/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Login/templates/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Login/templates/index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/Login/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/Login/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/CouponAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/CouponAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/addFavoritesAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/addFavoritesAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/addressAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/addressAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/appAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/appAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/badword.src.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/badword.src.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/bankList.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/bankList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/drawAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/drawAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/envelopeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/envelopeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/errorCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/errorCode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/footprintAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/footprintAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/getcodeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/getcodeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/gethotAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/gethotAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/groupbuyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/groupbuyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/kfAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/kfAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/orderAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/orderAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/payAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/payAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/plugsAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/plugsAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/productAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/productAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/rechargeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/rechargeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/searchAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/searchAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/signAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/signAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/testAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/testAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/upgradeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/upgradeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/userAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/userAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/wxBizDataCrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/wxBizDataCrypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/api/views/IndexInputView.class.php.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/api/views/IndexInputView.class.php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/cancelAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/cancelAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/makeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/makeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/seeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/actions/seeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/views/seeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/appointment/views/seeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/listAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/actions/listAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/listInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bargain/views/listInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/enableAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/enableAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/bgcolor/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/replyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/actions/replyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/replyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/comments/views/replyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/ajaxAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/ajaxAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/couponAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/couponAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/seeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/seeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/whetherAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/actions/whetherAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/couponInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/couponInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/seeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/coupon/views/seeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/addsignAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/addsignAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/operationAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/operationAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/parametersAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/parametersAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/whetherAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/actions/whetherAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/addsignInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/addsignInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/delInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/delInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/operationInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/operationInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/parametersInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/draw/views/parametersInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/uploadImgAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/actions/uploadImgAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/extension/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/jifenAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/jifenAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/jifen_seeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/jifen_seeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/list1Action.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/list1Action.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/listAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/listAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/rechargeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/rechargeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/seeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/seeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/yueAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/yueAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/yue_seeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/actions/yue_seeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/jifenInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/jifenInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/jifen_seeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/jifen_seeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/list1InputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/list1InputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/listInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/listInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/rechargeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/rechargeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/seeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/seeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/yueInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/yueInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/yue_seeInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/finance/views/yue_seeInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/actions/provinceAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/actions/provinceAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/freight/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/addgroupAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/addgroupAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/addproductAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/addproductAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/groupproAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/groupproAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/indexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/indexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/searchproAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/searchproAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/setproAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/actions/setproAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/addgroupInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/addgroupInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/addproductInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/addproductInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/groupproInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/groupproInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/indexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/indexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/searchproInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/searchproInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/setproInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/go_group/views/setproInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/guide/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/AddAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/AddAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/DelAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/DelAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/ModifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/actions/ModifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/AddInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/AddInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/DelInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/DelInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/ModifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/keyword/views/ModifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/member/actions/ajaxAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/member/actions/ajaxAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newsclass/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/amountAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/amountAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/viewAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/actions/viewAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/amountInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/amountInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/newslist/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/viewAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/actions/viewAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notellsuvt/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/articleAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/articleAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/articleInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/articleInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/delInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/delInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/notice/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/DetailAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/DetailAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/ModifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/ModifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/StatusAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/StatusAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/addsignAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/addsignAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/ajaxAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/ajaxAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/delorderAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/delorderAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/kuaidishowAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/actions/kuaidishowAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/DetailInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/DetailInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/ModifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/ModifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/StatusInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/StatusInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/addsignInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/addsignInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/ajaxInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/ajaxInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/delorderInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/delorderInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/kuaidishowInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/orderslist/views/kuaidishowInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/bargainAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/bargainAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/numAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/numAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/taobaoAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/actions/taobaoAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/bargainInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/bargainInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/numInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/numInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/taobaoInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/taobaoInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/ajaxAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/ajaxAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/product_class/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/addsignAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/addsignAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/examineAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/examineAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/setAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/setAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/viewAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/actions/viewAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/addsignInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/addsignInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/setInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/setInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/return/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/recordAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/recordAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/setscoreAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/actions/setscoreAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/delInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/delInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/recordInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/recordInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/setscoreInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/score/views/setscoreInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/configAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/configAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/recordAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/recordAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/setscoreAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/actions/setscoreAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/configInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/configInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/delInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/delInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/recordInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/recordInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/setscoreInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/sign/views/setscoreInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/addAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/addAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/jifenAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/jifenAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/modifyAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/modifyAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/pagedelAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/pagedelAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/pageindexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/pageindexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/programAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/programAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/whetherAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/actions/whetherAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/addInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/addInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/jifenInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/jifenInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/modifyInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/modifyInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/pageindexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/pageindexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/programInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/software/views/programInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/actions/provinceAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/actions/provinceAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/subtraction/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/system/actions/payAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/system/actions/payAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/system/actions/template_messageAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/system/actions/template_messageAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/system/views/payInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/system/views/payInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/system/views/template_messageInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/system/views/template_messageInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/test/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/test/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/test/actions/testAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/test/actions/testAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/test/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/test/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/test/views/testInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/test/views/testInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/SendAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/SendAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/delAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/delAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/rechargeAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/rechargeAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/sengAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/sengAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/viewAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/actions/viewAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/IndexInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/IndexInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/sengInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/sengInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/viewInputView.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/LKT/webapp/modules/userlist/views/viewInputView.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data/install.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/install.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/IndexSuccess.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/IndexSuccess.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step1.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step1.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step2.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step2.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step3.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step3.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step4.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/install/webapp/modules/Default/templates/step4.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/123123@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/147852@2x(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/4554@2x (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/456654@2x(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/4566@2x(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/back-8@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/cjdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/fxcp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/fxmx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/qiu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/tgewm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/wddd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/core/wdtd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/fanhui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/group/fen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/group/tuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/group/xstg_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/guanbi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/head.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_bad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_bad_select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_good_select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icon_middle_select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/cartopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/dz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/homeopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/meopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/newopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/seach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/seachopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/sz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/wdsc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/icons/zj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/kdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/kefu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/kefu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/mo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/pyq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/qbzf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/qdcg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/qingchu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/red_packet_share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/search_no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/shang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/shangchuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/shc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/shced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/wave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/wxzf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/x_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/xia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/xjt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/y_jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/images/z_jt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/about/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/about/about.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/about/about.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/about/about.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/address.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/address.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/address.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/upaddress/upaddress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/upaddress/upaddress.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/upaddress/upaddress.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/address/upaddress/upaddress.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/article/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/article/article.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/article/article.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/article/article.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/cart/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/cart/cart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/cart/cart.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/cart/cart.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/collection/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/collection/collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/collection/collection.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/collection/collection.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/comment/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/comment/comment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/comment/comment.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/comment/comment.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/coupon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/coupon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/coupon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/coupon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/cantuan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/cantuan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/cantuan.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/cantuan.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/draw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/draw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/draw.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/draw/draw.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/envelope/envelope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/envelope/envelope.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/envelope/envelope.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/envelope/envelope.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/footprint/footprint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/footprint/footprint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/footprint/footprint.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/footprint/footprint.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/cantuan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/cantuan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/cantuan.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/cantuan.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/comment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/comment.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/comment.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/detail.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/detail.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/group.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/group.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/group.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/payfor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/payfor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/payfor.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/group_buy/payfor.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/listdetail/listdetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/listdetail/listdetail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/listdetail/listdetail.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/listdetail/listdetail.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/logistics/logistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/logistics/logistics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/logistics/logistics.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/logistics/logistics.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/new/new.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/new/new.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/new/new.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/new/new.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/detail.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/detail.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/order.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/order.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/order.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/pay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/pay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/pay.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/order/pay.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/product/detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/product/detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/product/detail.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/product/detail.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/return_goods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/return_goods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/return_goods.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/return_goods/return_goods.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/search/search.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/search/search.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/search/search.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/set/set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/set/set.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/set/set.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/set/set.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/share.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/share.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/share.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/share/share.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/sign_in/sign_in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/sign_in/sign_in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/sign_in/sign_in.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/sign_in/sign_in.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/template/grouplist.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/template/loading.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/template/orderslist.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/template/toast.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/template/tobuy.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/recharge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/recharge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/recharge.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/recharge.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/score.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/score.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/score.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/score.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/user.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/user.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/wallet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/wallet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/wallet.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/wallet.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/withdrawals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/withdrawals.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/withdrawals.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/pages/user/withdrawals.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/utils/MD5Encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/utils/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/00.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/08.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/09.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/100.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/101.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/102.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/103.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/104.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/105.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/106.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/107.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/108.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/109.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/110.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/111.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/112.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/113.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/114.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/115.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/116.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/117.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/118.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/119.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/120.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/121.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/122.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/123.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/124.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/125.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/126.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/127.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/128.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/129.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/130.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/131.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/132.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/133.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/134.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/72.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/73.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/74.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/75.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/76.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/77.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/78.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/79.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/80.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/81.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/82.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/83.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/84.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/85.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/86.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/87.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/88.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/89.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/90.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/91.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/92.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/93.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/94.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/95.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/96.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/97.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/98.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/emojis/99.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/html2json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/htmlparser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/showdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/wxDiscode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/wxParse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/wxParse.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxParse/wxParse.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxSearch/images/wxSearch-icon-delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxSearch/wxSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxSearch/wxSearch.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/git/wxSearch/wxSearch.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/zip/miniprogram.zip" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-217714940">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="28" />
+          <entry key="php" value="25" />
+          <entry key="tpl" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="28" />
+          <entry key="PHP" value="25" />
+          <entry key="Smarty" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ini" value="4" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="5" />
+          <entry key="json" value="3" />
+          <entry key="md" value="1" />
+          <entry key="php" value="26" />
+          <entry key="png" value="3" />
+          <entry key="tpl" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="4" />
+          <entry key="Ini" value="4" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="26" />
+          <entry key="Smarty" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LKT</find>
+      <find>买买买不败家</find>
+      <find>电商管理系统界面</find>
+      <find>route</find>
+      <find>router</find>
+      <find>\/\*\*\n\n \* \[Laike System\] Copyright \(c\) 2018 laiketui\.com\n\n \* Laike is not a free software\, it under the license terms\, visited http\:\/\/www\.laiketui\.com\/ for more details\.\n\n \*\/</find>
+      <find>product_share</find>
+      <find>appkey</find>
+      <find>&lt;li&gt;&lt;a class=&quot;none&quot; href=&quot;#javascript&quot; title=&quot;正在开发中，暂未发布&quot;&gt;公众号&lt;/a&gt;&lt;/li&gt;</find>
+      <find>来客</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>买买买不败家</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/LKT/webapp</dir>
+      <dir>$PROJECT_DIR$/app/LKT</dir>
+      <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/miniprogram</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/app/LKT/webapp/modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/LKT/webapp/modules/Login/templates/index.tpl" />
+        <option value="$PROJECT_DIR$/app/LKT/index.php" />
+        <option value="$PROJECT_DIR$/app/LKT/js_api_call.php" />
+        <option value="$PROJECT_DIR$/app/LKT/webapp/modules/api/views/IndexInputView.class.php.php" />
+        <option value="$PROJECT_DIR$/miniprogram/request.js" />
+        <option value="$PROJECT_DIR$/miniprogram/app.js" />
+        <option value="$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/templates/index.tpl" />
+        <option value="$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/productAction.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="appointment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="LKT" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="appointment" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laiketui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laiketui" type="462c0819:PsiDirectoryNode" />
+              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="draw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/LKT/images" />
+      <recent name="$PROJECT_DIR$/app/LKT/images/iIcon" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a0e2cf5-f2fe-4e30-b050-5b32176e6771" name="Default Changelist" comment="" />
+      <created>1545098468568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545098468568</updated>
+      <workItem from="1545098471828" duration="5652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5652000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2980614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/install/authcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/Login/views/IndexInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/system/views/payInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/system/views/template_messageInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/system/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/system/config/module.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ueditor/php/upload/image/20180724/1532395870140571.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mojavi/user/BasicSecurityUser.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/Login/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/authcode.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/js_api_call.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#7#223#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/index/actions/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5571">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/index/config/module.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/index/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/views/maskContentInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/views/IndexInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/views/changePasswordInputView.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/userAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mojavi/controller/FrontWebController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/bankList.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/badword.src.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/config/module.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/views/IndexInputView.class.php.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/CouponAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/wxParse/wxParse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/getcodeAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#7#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/jsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/project.config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/style/assets/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/images/admin_logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/AdminLogin/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="407" column="65" selection-start-line="407" selection-start-column="65" selection-end-line="407" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/api/actions/productAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="245" column="42" lean-forward="true" selection-start-line="245" selection-start-column="42" selection-end-line="245" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/LKT/webapp/modules/appointment/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427" />
+      </provider>
+    </entry>
+  </component>
+</project>

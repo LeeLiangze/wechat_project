@@ -3,8 +3,8 @@ var canGetCookie = 1;//是否支持存储Cookie 0 不支持 1 支持
 var ajaxmockjax = 1;//是否启用虚拟Ajax的请求响 0 不启用  1 启用
 //默认账号密码
 var url = "index.php?module=Login";
-var web_url = "https://open.laiketui.com/a15a744a5ca77d41baa9d4f272f45dfd/LKT/index.php?module=Login";
-var web_name = 'https://open.laiketui.com/';
+var web_url = "https://dorisdouzi.cn/LKT/index.php?module=Login";
+var web_name = 'https://dorisdouzi.cn/';
 var authorization_code = '';
 var truelogin = "";
 var truepwd = "";

@@ -1,12 +1,6 @@
 <?php
 
-/**
 
- * [Laike System] Copyright (c) 2018 laiketui.com
-
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
-
- */
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/ShowPager.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
@@ -250,7 +244,7 @@ class productAction extends Action {
             $product['pro_number'] = $res['0']->id;
             $product['company'] = '件';
             $product['cat_name'] = $pname;
-            $product['brand'] = '来客推';
+            $product['brand'] = '买买买不败家';
             $product['img_arr'] = $img_arr;
             $product['choujiangid'] = $choujiangid? '':$choujiangid;
             $product['volume'] = $res['0']->volume;

@@ -4,7 +4,7 @@ var ajaxmockjax = 1;//是否启用虚拟Ajax的请求响 0 不启用  1 启用
 //默认账号密码
 var web_name = window.location.origin+'/';
 var url = "index.php?module=Login";
-var web_url = web_name+"a15a744a5ca77d41baa9d4f272f45dfd/LKT/index.php?module=Login";
+var web_url = web_name+"LKT/index.php?module=Login";
 var authorization_code = '';
 var truelogin = "";
 var truepwd = "";

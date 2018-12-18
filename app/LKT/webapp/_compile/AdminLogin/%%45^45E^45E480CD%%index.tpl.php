@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2018-12-17 18:37:03
+<?php /* Smarty version 2.6.26, created on 2018-12-18 13:11:12
          compiled from index.tpl */ ?>
 <!DOCTYPE HTML>
 <html>
@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="style/css/message.css">
 	<link rel="stylesheet" href="style/css/changeIndex.css" />
 
-	<title>电商管理系统界面</title>
+	<title>管理系统界面</title>
 	<?php echo '
 		<style type="text/css">
 			.bk_2{
@@ -413,10 +413,6 @@
 	<ul class="bigUl">
 		<li <?php if ($this->_tpl_vars['type'] == 0): ?>class="active"<?php endif; ?>><a href="index.php?module=AdminLogin">平台</a></li>
 		<li <?php if ($this->_tpl_vars['type'] == 1): ?>class="active"<?php endif; ?>><a href="index.php?module=AdminLogin&type=1">小程序</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">公众号</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">生活号</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">APP</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">报表</a></li>
 	</ul>
 
 	<ul class="Hui-userbar">

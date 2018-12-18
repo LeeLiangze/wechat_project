@@ -14,7 +14,7 @@
 
 
 
-		<title>环境检测-来客电商 V2.0  商城管理系统</title>
+		<title>环境检测-买买买不败家 V2.0  商城管理系统</title>
 
 
 
@@ -122,7 +122,7 @@
 
 
 
-			<div class="rule_title">来客电商 V2.0 <span>安装协议</span></div>
+			<div class="rule_title">买买买不败家 V2.0 <span>安装协议</span></div>
 
 
 

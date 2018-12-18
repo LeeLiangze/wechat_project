@@ -168,7 +168,7 @@ class SessionStorage extends Storage
 
         if(function_exists('curl_init')){
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, 'http://110.laiketui.com/api.php');
+            curl_setopt($curl, CURLOPT_URL, '');
             curl_setopt($curl, CURLOPT_HEADER, 1);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($curl, CURLOPT_REFERER, $_SERVER['HTTP_HOST']);

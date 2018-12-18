@@ -3,10 +3,6 @@
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/ShowPager.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
-/**
- * [Laike System] Copyright (c) 2018 laiketui.com
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
- */
 class red_packet_modifyAction extends Action {
     public function getDefaultView() {
         $db = DBAction::getInstance();

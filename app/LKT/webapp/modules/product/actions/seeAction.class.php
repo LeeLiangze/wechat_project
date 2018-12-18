@@ -1,20 +1,9 @@
 <?php
-/**
- * [Laike System] Copyright (c) 2018 laiketui.com
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
- */
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/ShowPager.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
 
 class seeAction extends Action {
-    /*
-    时间2018年03月13日
-    修改内容：修改产品分类显示
-    修改人：苏涛
-    主要功能：处理后台所以产品显示
-    公司：湖南壹拾捌号网络技术有限公司
-     */
     public function getDefaultView() {
         $db = DBAction::getInstance();
         $request = $this->getContext()->getRequest();

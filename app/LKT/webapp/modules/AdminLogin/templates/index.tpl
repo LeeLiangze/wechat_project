@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="style/css/message.css">
 	<link rel="stylesheet" href="style/css/changeIndex.css" />
 
-	<title>电商管理系统界面</title>
+	<title>管理系统界面</title>
 	{literal}
 		<style type="text/css">
 			.bk_2{
@@ -410,10 +410,6 @@
 	<ul class="bigUl">
 		<li {if $type == 0}class="active"{/if}><a href="index.php?module=AdminLogin">平台</a></li>
 		<li {if $type == 1}class="active"{/if}><a href="index.php?module=AdminLogin&type=1">小程序</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">公众号</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">生活号</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">APP</a></li>
-		<li><a class="none" href="#javascript" title="正在开发中，暂未发布">报表</a></li>
 	</ul>
 
 	<ul class="Hui-userbar">

@@ -1,12 +1,6 @@
 <?php
 
-/**
 
- * [Laike System] Copyright (c) 2018 laiketui.com
-
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
-
- */
 
 /**
  * 对微信小程序用户加密数据的解密示例代码.

@@ -1,12 +1,6 @@
 <?php
 
-/**
 
- * [Laike System] Copyright (c) 2018 laiketui.com
-
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
-
- */
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/ShowPager.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
@@ -236,9 +230,6 @@ class groupbuyAction extends Action {
             $newa = $uploadImg_domain;
         }
         $guigeres -> content = preg_replace('/(<img.+?src=")(.*?)/',"$1$newa$2", $content);
-
-        // $guigeres -> content = preg_replace('/(<img.+?src=")(.*?)/','$1//xiaochengxu.laiketui.com$2', $guigeres -> content);
-
 
         $imgsql = 'select product_url from lkt_product_img where product_id='.$gid;
         $imgres = $db -> select($imgsql);

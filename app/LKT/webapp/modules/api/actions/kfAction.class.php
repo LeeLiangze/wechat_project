@@ -1,12 +1,6 @@
 <?php
 
-/**
 
- * [Laike System] Copyright (c) 2018 laiketui.com
-
- * Laike is not a free software, it under the license terms, visited http://www.laiketui.com/ for more details.
-
- */
 require_once(MO_LIB_DIR . '/DBAction.class.php');
 require_once(MO_LIB_DIR . '/ShowPager.class.php');
 require_once(MO_LIB_DIR . '/Tools.class.php');
@@ -330,7 +324,6 @@ class kfAction extends Action {
 	}
 
 	/**
-	 *   https://xiaochengxu.laiketui.com/duan/LKT/index.php?module=api&action=kf
 	 * 功能: 获取用户信息, 返回定制化文本
 	 * @param  SimpleXMLElement $postObj
 	 * @param  String $accessToken
