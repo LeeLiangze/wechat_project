@@ -36,7 +36,6 @@ class seeAction extends Action {
 
         $request->setAttribute("uploadImg",$uploadImg);
         $request->setAttribute("id",$id);
-        $request->setAttribute("id",$id);
         $request->setAttribute("product_title",$product_title);
         $request->setAttribute("url",$url);
         $request->setAttribute("attribute_key",$attribute_key);

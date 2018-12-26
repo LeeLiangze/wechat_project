@@ -88,7 +88,8 @@ App({
       header: {
         'Content-Type':  'application/x-www-form-urlencoded'
       },
-      success: function (res) {   
+      success: function (res) {
+        console.log(res);
         var data = res.data;
         var bgcolor = res.data.bgcolor;
         that.d.bgcolor = bgcolor;

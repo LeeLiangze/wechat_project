@@ -401,7 +401,7 @@ CREATE TABLE `lkt_config` (
 
 LOCK TABLES `lkt_config` WRITE;
 /*!40000 ALTER TABLE `lkt_config` DISABLE KEYS */;
-INSERT INTO `lkt_config` VALUES (1,'1541601350533.jpeg','买买买不败家','','','',NULL,'','','../LKT/images/','../LKT/zip','2018-11-09 13:36:19','','');
+INSERT INTO `lkt_config` VALUES (1,'1541601350533.jpeg','买买不败家','','','',NULL,'','','../LKT/images/','../LKT/zip','2018-11-09 13:36:19','','');
 /*!40000 ALTER TABLE `lkt_config` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1779,7 +1779,7 @@ CREATE TABLE `lkt_sign_activity` (
 
 LOCK TABLES `lkt_sign_activity` WRITE;
 /*!40000 ALTER TABLE `lkt_sign_activity` DISABLE KEYS */;
-INSERT INTO `lkt_sign_activity` VALUES (1,'1539241964734.png','2018-08-01 00:00:00','2018-12-18 23:59:59','<p><span style=\"font-size: 12px;\">1、每人每天只能签到一次,不能重复签到</span></p><p><span style=\"font-size: 12px;\">2、每天签到即可获得每日奖励，连续签到可以获得连续签到奖励</span></p><p><span style=\"font-size: 12px;\">3、如签到中断则重新开始计算奖励，签到以月为一个周期</span></p><p><span style=\"font-size: 12px;\">4、奖励规则:</span></p><p><span style=\"font-size: 12px;\">(1) 连续签到7天，既可获得5</span></p><p><span style=\"font-size: 12px;\">(2) 连续签到20天，既可获得10</span></p><p><span style=\"font-size: 12px;\">(3) 连续签到30天，既可获得20</span></p><p><span style=\"font-size: 12px;\">5、本活动最终解释权归买买买不败家所有</span></p><p><span style=\"font-size: 12px;\"><br/></span></p><p><span style=\"font-size: 12px;\"><br/></span></p><p><span style=\"font-size: 12px;\"><br/></span></p>','2018-10-18 09:00:33',1);
+INSERT INTO `lkt_sign_activity` VALUES (1,'1539241964734.png','2018-08-01 00:00:00','2018-12-18 23:59:59','<p><span style=\"font-size: 12px;\">1、每人每天只能签到一次,不能重复签到</span></p><p><span style=\"font-size: 12px;\">2、每天签到即可获得每日奖励，连续签到可以获得连续签到奖励</span></p><p><span style=\"font-size: 12px;\">3、如签到中断则重新开始计算奖励，签到以月为一个周期</span></p><p><span style=\"font-size: 12px;\">4、奖励规则:</span></p><p><span style=\"font-size: 12px;\">(1) 连续签到7天，既可获得5</span></p><p><span style=\"font-size: 12px;\">(2) 连续签到20天，既可获得10</span></p><p><span style=\"font-size: 12px;\">(3) 连续签到30天，既可获得20</span></p><p><span style=\"font-size: 12px;\">5、本活动最终解释权归买买不败家所有</span></p><p><span style=\"font-size: 12px;\"><br/></span></p><p><span style=\"font-size: 12px;\"><br/></span></p><p><span style=\"font-size: 12px;\"><br/></span></p>','2018-10-18 09:00:33',1);
 /*!40000 ALTER TABLE `lkt_sign_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1868,7 +1868,7 @@ CREATE TABLE `lkt_software` (
 
 LOCK TABLES `lkt_software` WRITE;
 /*!40000 ALTER TABLE `lkt_software` DISABLE KEYS */;
-INSERT INTO `lkt_software` VALUES (3,'买买买不败家','154045470247.png',0,'2','1.0','包@2x1529555689.1.0.png','2018-10-25 08:05:04',''),(4,'买买买不败家','1529564161969.png',1,'2','1.0','形状-19@2x1529564172.1.0.png','2018-06-20 22:56:12',NULL),(5,'来客推','5a93dc3c87c50.jpg',0,'2','1.0','LKT_xiaochengxu1529923298.1.0.zip','2018-06-25 02:41:38',NULL),(6,'买买买不败家','5a93dbad1167e.jpg',0,'2','1.1','LKT_xiaochengxu1529992858.1.1.zip','2018-06-25 22:00:58',NULL),(8,'后台1.03','1532604827848.jpeg',0,'2','1.03','lkt_update_后台1.03.zip','2018-07-26 03:46:35','基础版本'),(9,'后台1.04','1532605150351.png',2,'2','1.04','lkt_update_1.04.zip','2018-07-26 03:40:33','测试更新1.04版本');
+INSERT INTO `lkt_software` VALUES (3,'买买不败家','154045470247.png',0,'2','1.0','包@2x1529555689.1.0.png','2018-10-25 08:05:04',''),(4,'买买不败家','1529564161969.png',1,'2','1.0','形状-19@2x1529564172.1.0.png','2018-06-20 22:56:12',NULL),(5,'来客推','5a93dc3c87c50.jpg',0,'2','1.0','LKT_xiaochengxu1529923298.1.0.zip','2018-06-25 02:41:38',NULL),(6,'买买不败家','5a93dbad1167e.jpg',0,'2','1.1','LKT_xiaochengxu1529992858.1.1.zip','2018-06-25 22:00:58',NULL),(8,'后台1.03','1532604827848.jpeg',0,'2','1.03','lkt_update_后台1.03.zip','2018-07-26 03:46:35','基础版本'),(9,'后台1.04','1532605150351.png',2,'2','1.04','lkt_update_1.04.zip','2018-07-26 03:40:33','测试更新1.04版本');
 /*!40000 ALTER TABLE `lkt_software` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1894,7 +1894,7 @@ CREATE TABLE `lkt_software_jifen` (
 
 LOCK TABLES `lkt_software_jifen` WRITE;
 /*!40000 ALTER TABLE `lkt_software_jifen` DISABLE KEYS */;
-INSERT INTO `lkt_software_jifen` VALUES (1,30,0,'<p>“积分”通过哪种方式获得？</p><p>“积分”主要通过活动形式免费对所有买买买不败家</p><p>用户进行发放，请您随时关注买买买不败家举办的各</p><p>种活动，以及您手机中收到的买买买不败家推送内容。</p><p>1、关注赠送；</p><p>2、签到赠送；</p><p>3、购买会员赠送；</p><p>4、活动赠送。</p><p>“积分”如何使用？</p><p>进入买买买不败家商城，点击“幸运抽奖”</p><p>点击“马上抽奖”有机会获得“现金”、</p><p>“积分”、“消费金”、“产品”等奖品。</p><p>还有机会获得超级大奖“苹果8”手机哦！</p><p>抽奖区有排行榜，进入排行榜的会员，</p><p>还有机会获得神秘大奖！</p><p><br/></p>');
+INSERT INTO `lkt_software_jifen` VALUES (1,30,0,'<p>“积分”通过哪种方式获得？</p><p>“积分”主要通过活动形式免费对所有买买不败家</p><p>用户进行发放，请您随时关注买买不败家举办的各</p><p>种活动，以及您手机中收到的买买不败家推送内容。</p><p>1、关注赠送；</p><p>2、签到赠送；</p><p>3、购买会员赠送；</p><p>4、活动赠送。</p><p>“积分”如何使用？</p><p>进入买买不败家商城，点击“幸运抽奖”</p><p>点击“马上抽奖”有机会获得“现金”、</p><p>“积分”、“消费金”、“产品”等奖品。</p><p>还有机会获得超级大奖“苹果8”手机哦！</p><p>抽奖区有排行榜，进入排行榜的会员，</p><p>还有机会获得神秘大奖！</p><p><br/></p>');
 /*!40000 ALTER TABLE `lkt_software_jifen` ENABLE KEYS */;
 UNLOCK TABLES;
 

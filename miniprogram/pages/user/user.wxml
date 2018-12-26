@@ -122,10 +122,6 @@
               </view>
             </navigator>
           </view>
-          <view class='bottom'>
-            <view class='bottom_1'><image src="{{logo}}"></image></view>
-            {{support}}
-          </view>
         </view>
       </view>
     </view>

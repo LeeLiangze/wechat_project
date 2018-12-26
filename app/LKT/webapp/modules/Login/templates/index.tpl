@@ -24,7 +24,7 @@
         <div class="page_login">
             <div class='login_title'>
                 <img src="images/iIcon/logo2.png"/>
-                <p style="color: #fff;font-size: 30px;">买买买不败家管理系统</p>
+                <p style="color: #fff;font-size: 30px;">日常生活记录</p>
             </div>
 
             <div class='login_fields'>

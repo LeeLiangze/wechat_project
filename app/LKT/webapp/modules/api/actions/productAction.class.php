@@ -244,7 +244,7 @@ class productAction extends Action {
             $product['pro_number'] = $res['0']->id;
             $product['company'] = '件';
             $product['cat_name'] = $pname;
-            $product['brand'] = '买买买不败家';
+            $product['brand'] = '买买不败家';
             $product['img_arr'] = $img_arr;
             $product['choujiangid'] = $choujiangid? '':$choujiangid;
             $product['volume'] = $res['0']->volume;
